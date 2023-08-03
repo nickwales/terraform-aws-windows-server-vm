@@ -1,7 +1,7 @@
 variable "windows_instance_type" {
   type        = string
   description = "EC2 instance type for Windows Server"
-  default     = "t2.micro"
+  default     = "m5.large"
 }
 variable "windows_associate_public_ip_address" {
   type        = bool
